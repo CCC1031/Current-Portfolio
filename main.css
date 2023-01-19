@@ -1,5 +1,4 @@
 * { 
-  scroll-behavior: smooth;
   box-sizing: border-box !important ;
 }
 :focus {
@@ -8,7 +7,9 @@
 ::-moz-focus-inner {
   border: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #fff;
   color: #333;
@@ -25,8 +26,7 @@ section {
   position: relative;
   left: 230px;
   width: 100%;
-  padding-left: 10rem;
-  
+  scroll-margin-left: 230px;
 }
 /* text */
 i.icon {
