@@ -599,27 +599,6 @@ hr {
   width: 100%;
 }
 
-/* Phone View */
-@media (max-width: 50em) {
-  .home-area {
-    height: 700px;
-  }
-  .sidebar {
-    display: none;
-  }
-  .second-avatar {
-    display: none; 
-  }
-  .portfolio-grid {
-    flex-direction: column;
-  }
-  section {
-    width: 100%;
-    left:0;
-  }
-}
-  
-
 /*--- About ---*/
 
 .about-area .about-img img {
@@ -1033,3 +1012,60 @@ hr {
 }
 
 
+
+
+/* PhoneView */
+@media (min-width: 15em) {
+ body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .home-area1 .home-headline1 {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    top: 40%;
+    left: 0; 
+    position: relative;
+  }
+  .home-area1 .home-name {
+    font-size: 1.5rem;
+    margin: 0; 
+    text-align: center;
+  }
+  .sidebar {
+    display: none;
+  }
+  .second-avatar {
+    display: none; 
+  }
+  .portfolio-grid {
+    flex-direction: column;
+  }
+  section {
+    width: 100%;
+    left:0;
+  }
+}
+
+/* Tablet View */
+@media (max-width: 50em) {
+  
+  .home-area {
+    height: 700px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .second-avatar {
+    display: none; 
+  }
+  .portfolio-grid {
+    flex-direction: column;
+  }
+  section {
+    width: 100%;
+    left:0;
+  }
+}
+  
