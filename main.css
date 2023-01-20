@@ -510,14 +510,7 @@ hr {
   width: 2px;
 }
 
-.home-area .home-mouse {
-  bottom: 5.5%;
-  left: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  width: 29px;
-}
+
 
 .home-area .home-mouse .mouse-shape {
   background-color: rgba(0, 0, 0, 0.45);
@@ -994,6 +987,11 @@ hr {
   background-color: #5b457a;
 }
 
+sidebar-menu a.active {
+  color: blue;
+  transition: 0.8 ease color;
+}
+
 
 
 
@@ -1105,19 +1103,13 @@ hr {
   .sidebar {
     display: none;
   }
-  .second-avatar {
-    display: none; 
-  }
-  /* .portfolio-grid {
-    flex-direction: column;
-  } */
   section {
     width: 100%;
     left:0;
   }
 }
 /* Desktop View */
-@media (max-width: 150em) {
+@media (max-width: 100em) {
   body, html {
     overflow-x: hidden;
     width: 100%;
