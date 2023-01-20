@@ -1027,6 +1027,27 @@ hr {
   .home-area {
     height: 700px;
   }
+  .home-area1 .home-headline1 {
+    text-align: center;
+    position: relative;
+    left: 0; 
+    top: 40%; 
+  }
+  .home-area1 .home-headline1 .home-name {
+    font-size: 20px; 
+  }
+  .content-subtitle {
+    text-decoration: none;
+
+  }
+  .text{
+    width: 600px;
+    
+  }
+ .description-text {
+    text-decoration:none;
+    
+  }
   .sidebar {
     display: none;
   }
@@ -1034,6 +1055,7 @@ hr {
     display: none; 
   }
   .portfolio-grid {
+    padding-top: 0;
     flex-direction: column;
   }
     .portfolio-area .portfolio-grid .portfolio-wrapper {
@@ -1055,7 +1077,7 @@ hr {
     border-radius: 5px;
     height: 320px; 
     width: 330px; 
-    margin: 5px 70px 20px -40px;
+    margin: 5px 70px 20px -44px;
   }
   .card-img-top {
     height: 180px; 
@@ -1069,11 +1091,17 @@ hr {
   }
   .blog-area .single-post .post-content {
     padding: 0;
-    margin-top: 15px;
-
+    margin: 0;
+  }
+  .blog-area .single-post .post-content .content-title {
+    padding: 0;
+    margin-top: 10px;
+  }
+  .blog-area .single-post .post-content .content-title {
+    font-size: 14px;
   }
   .blog-area .single-post .post-content .content-description {
-    margin-top: -20px;
+    margin-top: -10px;
   }
   .blog-area .single-post .post-content .content-tags .tags-list {
     display: inline-flex;
