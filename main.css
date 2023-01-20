@@ -623,7 +623,7 @@ hr {
 .about-area .about-content .content-description {
   font-size: 15px;
   width: 50%; 
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 .about-area .about-content .content-description p {
   text-decoration: none;
@@ -640,35 +640,14 @@ hr {
   border-bottom: 2px solid rgba(0, 0, 0, 0.08);
   margin-top: 40px;
 }
-.about-area .about-content .content-info {
-  font-size: 15px;
-  margin-bottom: 4px;
-  padding: 27px 0;
-}
 
-.about-area .about-content .content-info>.row:last-child .nfo {
-  margin-bottom: 0;
-}
 
-.about-area .about-content .content-info .single-info {
-  margin-bottom: 10px;
-}
 
-.about-area .about-content .content-info .single-info>span {
-  color: #333;
-  font-weight: 600;
-  margin-right: 10px;
-}
 
-.about-area .about-content .content-info .single-info>p {
-  display: inline-block;
-  margin-bottom: 0;
-}
 
-.about-area .about-content .content-download,
-.about-area .about-content .content-work {
-  margin-right: 16px;
-}
+
+
+
 
 
 /* see work  */
