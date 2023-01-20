@@ -890,10 +890,10 @@ hr {
   border-radius: 7px;
   width: 100%;
 }
-
-
 .blog-area .single-post .post-content {
-  padding: 0;;
+  padding: 0;
+  margin-top: 10px;
+  color: black;
 }
 
 .blog-area .single-post .post-content .content-title {
@@ -901,8 +901,13 @@ hr {
   font-weight: 600px;
   letter-spacing: 0.1px;
   margin: 0; 
+  padding: 0;
+  text-align: left;
+  position: relative;
 }
-
+.blog-area .single-post .post-content .content-title {
+  color: black; 
+}
 .blog-area .single-post .post-content .content-description {
   font-size: 13px;
   font-weight: 400;
@@ -1015,42 +1020,11 @@ hr {
 
 
 /* PhoneView */
-@media (min-width: 15em) {
+@media (max-width: 38em) {
  body, html {
     overflow-x: hidden;
     width: 100%;
   }
-  .home-area1 .home-headline1 {
-    color: #fff;
-    font-weight: 400;
-    letter-spacing: 0.3px;
-    top: 40%;
-    left: 0; 
-    position: relative;
-  }
-  .home-area1 .home-name {
-    font-size: 1.5rem;
-    margin: 0; 
-    text-align: center;
-  }
-  .sidebar {
-    display: none;
-  }
-  .second-avatar {
-    display: none; 
-  }
-  .portfolio-grid {
-    flex-direction: column;
-  }
-  section {
-    width: 100%;
-    left:0;
-  }
-}
-
-/* Tablet View */
-@media (max-width: 50em) {
-  
   .home-area {
     height: 700px;
   }
@@ -1062,6 +1036,71 @@ hr {
   }
   .portfolio-grid {
     flex-direction: column;
+  }
+    .portfolio-area .portfolio-grid .portfolio-wrapper {
+    border: 3px solid pink;
+    width: 22rem; 
+    height: 12rem;
+    margin: 5px 70px 20px 70px;
+  }
+  .portfolio-area .portfolio-grid .portfolio-wrapper img {
+    width: 100%;
+    object-fit:fill;
+    height: 11.75rem;
+    display: block;
+  }
+  .blog-wrap {
+    display: flex; 
+    flex-direction: column;
+    margin: 5px 70px 20px 35px;
+  }
+  .blog-area .single-post .post-content {
+    padding: 0;;
+  }
+  
+  section {
+    width: 100%;
+    left:0;
+  }
+}
+
+/* Tablet View */
+@media (max-width: 50em) {
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .home-area {
+    height: 700px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .second-avatar {
+    display: none; 
+  }
+  /* .portfolio-grid {
+    flex-direction: column;
+  } */
+  section {
+    width: 100%;
+    left:0;
+  }
+}
+/* Tablet View */
+@media (max-width: 150em) {
+  body, html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .home-area {
+    height: 700px;
+  }
+  .sidebar {
+    display: none;
+  }
+  .second-avatar {
+    display: none; 
   }
   section {
     width: 100%;
