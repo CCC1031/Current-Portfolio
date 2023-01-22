@@ -790,7 +790,6 @@ hr {
   display:block;
   text-align: center;
   font-size: 20px;
-
   /* margin: auto;  */
 }
 .carousel-nav { 
@@ -1073,6 +1072,61 @@ sidebar-menu a.active {
     width: 100%;
     left:0;
   }
+  .quotes-section  {
+    height: 920px;
+    position:relative;
+    background-color: rgba(218, 218, 219, 0.68);
+
+  }
+
+  .quote-wrap .single {   
+    border: 1px solid rgba(214, 214, 214, 0.8); 
+    background: #f7f7f7;
+    width: 150px; 
+    height: 160px; 
+    list-style-type: none;
+    padding: 1em; 
+    display: none;
+    position: relative;
+    left: 90px; 
+  }
+  .quote-wrap .single p {    
+    color: black;  
+    width: 80%; 
+    height: 35%;
+    position: absolute;
+    text-align: center;
+    top: 120px; 
+    left: 70px; 
+    border-radius: 5px;
+    background-color: rgb(227, 234, 237);
+    opacity: .55;
+  }
+  .quote-wrap .single--selected {
+    display:block;
+    text-align: center;
+    font-size: 20px;
+  }
+  .carousel-nav { 
+    width: 100%; 
+    padding: 20px 0; 
+    position: relative;
+    bottom: 0; 
+    left: 40%; 
+  }
+  .carousel-button {
+    width: 10px; 
+    height: 10px; 
+    display: inline-flex;
+    background: rgb(182, 180, 180);
+    border-radius: 50%;
+    margin: 0 5px; 
+    cursor: pointer;
+    position: relative;
+    right: -180px;
+    top: 500px; 
+  }
+
 }
 
 /* Tablet View */
