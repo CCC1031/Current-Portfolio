@@ -13,12 +13,43 @@ window.addEventListener("scroll", () => {
   });
 });
 
-document.querySelectorAll(".quoteWrap").forEach(quoteWrap => {
-  const items = quoteWrap.querySelectorAll(".single"); 
-  const buttonQuote = Array.from(items, () => {
+document.querySelectorAll(".carousel").forEach(carousel => {
+  const items = carousel.querySelectorAll(".single"); 
+  const buttonsHTML = Array.from(items, () => {
     return `<span class="carousel-button"></span>`;
   });
-    console.log(buttonQuote);
+
+  carousel.insertAdjacentHTML("beforeend", `
+    <div class="casrousel-nav">
+    ${buttonsHTML.join("")}
+  </div>
+  `);
+
+  const buttons = carousel.querySelectorAll(".carousel-button"); 
+
+  buttons.forEach((button, i) => {
+    button.addEventListener("click", () => {
+
+      items.forEach(item => item.classList.remove("single--selected"));
+      buttons.forEach(button => button.classList.remove("carousel-button--selected"));
+
+      items[i].classList.add("single--selected");
+      button.classList.add("carousel-button--selected");
+    });
+  });
+      //first item
+      items[0].classList.add("single--selected");
+      buttons[0].classList.add("carousel-button--selected");
 });
+
+//   
+
+//   
+//     
+//       
+      
+//     
+//   
+// });
 
 

@@ -1098,7 +1098,7 @@ sidebar-menu a.active {
   display: inline-block;
   background: rgb(182, 180, 180);
   border-radius: 50%;
-  margin: 0 5px; 
+  margin: 200px 5px; 
   cursor: pointer;
 }
 
