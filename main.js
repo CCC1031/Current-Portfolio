@@ -16,7 +16,7 @@ window.addEventListener("scroll", () => {
 document.querySelectorAll(".carousel").forEach(carousel => {
   const items = carousel.querySelectorAll(".single"); 
   const buttonsHTML = Array.from(items, () => {
-    return `<span class="carousel-button"></span>`;
+    return `<div class="carousel-button"></div>`;
   });
 
   carousel.insertAdjacentHTML("beforeend", `
