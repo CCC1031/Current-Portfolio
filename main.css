@@ -119,8 +119,7 @@ hr {
 
 .single-section .section-heading>.section-title {
   display: inline-block;
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 40px;  
   letter-spacing: -0.25px;
   line-height: 100%;
   margin-bottom: 12px;
@@ -470,7 +469,8 @@ hr {
 /*--- Home ---*/
 .home-area1 {
   height: 100vh;
-  background-color: rgba(245, 240, 240, 0.68);
+  /* background-color: rgba(245, 240, 240, 0.68); */
+  background-color: #484848;
   padding: 0; 
 }
 
@@ -508,9 +508,6 @@ hr {
   top: 0;
   width: 2px;
 }
-
-
-
 .home-area .home-mouse .mouse-shape {
   background-color: rgba(0, 0, 0, 0.45);
   border: 2px solid transparent;
@@ -694,19 +691,7 @@ hr {
   width: 25rem; 
   cursor: pointer;
 }
-/* .portfolio-area .portfolio-grid .portfolio-wrapper { */
-  
-  /* bottom: 0; */
-  /* opacity: 99; */
-  /* visibility: visible; */
 
-  /* height: 100%; */
-  /* width: 25rem;  */
-  /* border: 2px solid red; */
-  /* background-color: #5b457a; */
-  /* background-color: rgba(86, 6, 6, 0.9); */
-  /* transition: all 0.15s ease-in-out; */
-/* } */
 .overlay{
   position: absolute;
   top: 0;
@@ -755,15 +740,13 @@ hr {
   /* height: 100%; */
 }
 
-
-
-
 /*--- Quotes ----*/
-
-
 .quotes-section  {
   height: 720px;
   position:relative;
+  background-color: rgba(218, 218, 219, 0.68);
+  /* background-color: #484848; */
+
 }
 .quote-wrap {  /* .carousel */
   width: 100%; 
@@ -779,7 +762,7 @@ hr {
   padding: 1em; 
   display: none;
   position: relative;
-  left: 350px; 
+  left: 300px; 
 }
 
 .quote-wrap .single img {    /* .carousel--item */
@@ -826,7 +809,7 @@ hr {
   margin: 0 5px; 
   cursor: pointer;
   position: relative;
-  right: 80px;
+  right: 100px;
   top: 500px; 
 }
 .carousel-button--selected {
@@ -837,8 +820,10 @@ hr {
 /*---- Blog ----*/
 .blog-wrap {
   display: flex; 
-  /* flex-direction: row; */
   margin-right: 20px;
+}
+.blog-area {
+  height: 700px; 
 }
 
 .blog-area .single-post {
