@@ -13,46 +13,12 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// var carousel = document.querySelector('.carousel');
-// var images = document.querySelectorAll('.carousel p');
-// var current = 0;
-
-// setInterval(() => {
-//   images[current].classList.remove('current');
-//   current = current !== images.length - 1 ? current + 1 : 0;
-//   images[current].classList.add('current');
-// }, 5000);
-
-
-
-jQuery("#carousel").owlCarousel({
-    autoplay: true,
-    rewind: true, /* use rewind if you don't want loop */
-    margin: 20,
-     /*
-    animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
-    */
-    responsiveClass: true,
-    autoHeight: true,
-    autoplayTimeout: 7000,
-    smartSpeed: 800,
-    nav: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-  
-      600: {
-        items: 3
-      },
-  
-      1024: {
-        items: 4
-      },
-  
-      1366: {
-        items: 4
-      }
-    }
+document.querySelectorAll(".quoteWrap").forEach(quoteWrap => {
+  const items = quoteWrap.querySelectorAll(".single"); 
+  const buttonQuote = Array.from(items, () => {
+    return `<span class="carousel-button"></span>`;
   });
+    console.log(buttonQuote);
+});
+
+
