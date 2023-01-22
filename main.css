@@ -105,8 +105,7 @@ hr {
 .single-section {
   background-color: #fff;
   padding: 35px 40px;
-  display: flex;
-  /* margin-top: -10px; */
+  /* display: flex; */
 }
 
 .single-section.alt-bg {
@@ -756,84 +755,15 @@ hr {
   /* height: 100%; */
 }
 
-/* .portfolio-area .portfolio-grid .portfolio-wrapper .item-content:before {
-  left: 0;
-  opacity: 0;
-  /* padding: 3px 18px; */
-  /*position: absolute;
-  text-align: center;
-  transition: all 0.15s ease-in-out; 
-  visibility: hidden;
-  width: 100%;
-  z-index: 1;
-} */
-/* .item-content-portfolio {
-  left: 0;
-  opacity: 0 !important;
-  padding: 3px 18px;
-  position: absolute;
-  text-align: center;
-  transition: all 0.15s ease-in-out; 
-  visibility: hidden !important;
-  width: 100%;
-  z-index: 1;
-  border: 1px solid red;
-} */
 
-/* .item-content-portfolio:hover {
-  opacity: 1 !important;
-  visibility: visible !important;
-  border: 1px solid red;
-} */
-
-
-/* .portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-title {
-  color: #fff;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.8;
-  margin-bottom: 10px;
-} */
-
-
-
-
-
-/* .portfolio-area .portfolio-grid .portfolio-wrapper:hover .item-content {
-  opacity: 1;
-  visibility: visible;
-} */
 
 
 /*--- Quotes ----*/
-.quotes-section .single-review {
-  background-color: #fff;
-  /* border: 1px solid rgba(214, 214, 214, 0.8); */
-  padding: 40px 30px;
-  text-align: center;
-}
-
-.quotes-section .single-review .review-icon {
-  display: inline-block;
-  font-size: 50px;
-  margin-bottom: 18px;
-}
-
-.quotes-section .single-review .review-content {
-  margin-bottom: 24px;
-}
 
 
-.single .author-name {
-  color: #3c3c3c;
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.quotes-section .owl-carousel .owl-dots {
-  margin-top: 24px;
-}
+/* .quotes-section  {
+  left: 200px;
+} */
 
 /*---- Blog ----*/
 .blog-wrap {
@@ -1128,4 +1058,40 @@ sidebar-menu a.active {
     left:0;
   }
 }
-  
+
+.quote-wrap {  /* .carousel */
+  width: 100%; 
+  display: flex;
+  overflow-x: auto; 
+  scroll-behavior:smooth; 
+  position: relative;
+}
+
+.quote-wrap .single {    /* .carousel--item */
+  border: 1px solid rgba(214, 214, 214, 0.8); 
+  margin-left: 20px;
+  background: #f7f7f7;
+  width: 100%; 
+  height: 400px; 
+  list-style-type: none;
+  position: relative;
+  padding: 1em; 
+}
+
+.carousel-nav { 
+  width: 100%; 
+  padding: 20px 0; 
+  position: absolute;
+  bottom: 0; 
+  left: 40%; 
+}
+
+.carousel-button {
+  width: 10px; 
+  height: 10px; 
+  display: inline-block;
+  background: gray;
+  border-radius: 50%;
+}
+
+
