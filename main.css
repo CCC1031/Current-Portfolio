@@ -740,6 +740,72 @@ hr {
   /* height: 100%; */
 }
 
+
+/*---- Blog ----*/
+.blog-wrap {
+  display: flex; 
+  margin-right: 20px;
+}
+.blog-area {
+  height: 700px; 
+}
+
+.blog-area .single-post {
+  background-color: transparent;
+  border: none;
+  border: 1px solid pink; 
+  border-radius: 5px;
+  height: 400px; 
+  width: 410px; 
+  margin-right: 20px;
+}
+
+.blog-area .single-post .post-img {
+  position: relative;
+  width: 100%;
+}
+.card-img-top {
+  height: 230px; 
+  border-radius: 7px;
+  width: 100%;
+}
+.blog-area .single-post .post-content {
+  padding: 0;
+  margin-top: 10px;
+  color: black;
+}
+
+.blog-area .single-post .post-content .content-title {
+  font-size: 18px;
+  font-weight: 600px;
+  letter-spacing: 0.1px;
+  margin: 0; 
+  padding: 0;
+  text-align: left;
+  position: relative;
+}
+.blog-area .single-post .post-content .content-title {
+  color: black; 
+}
+.blog-area .single-post .post-content .content-description {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.blog-area .single-post .post-content .content-tags .tags-list {
+  display: inline-flex;
+  margin-left: -40px;
+}
+.blog-area .single-post .post-content .content-tags .tags-list li a{
+  list-style: none;
+  text-decoration: none;
+}
+.blog-area .single-post .post-content .content-tags .tags-list li:last-child{
+  padding-left: 7px;
+}
+
 /*--- Quotes ----*/
 .quotes-section  {
   height: 720px;
@@ -813,72 +879,6 @@ hr {
 }
 .carousel-button--selected {
   background: rgb(219, 219, 219);
-}
-
-
-/*---- Blog ----*/
-.blog-wrap {
-  display: flex; 
-  margin-right: 20px;
-}
-.blog-area {
-  height: 700px; 
-}
-
-.blog-area .single-post {
-  background-color: transparent;
-  border: none;
-  border: 1px solid pink; 
-  border-radius: 5px;
-  height: 400px; 
-  width: 410px; 
-  margin-right: 20px;
-}
-
-.blog-area .single-post .post-img {
-  position: relative;
-  width: 100%;
-}
-.card-img-top {
-  height: 230px; 
-  border-radius: 7px;
-  width: 100%;
-}
-.blog-area .single-post .post-content {
-  padding: 0;
-  margin-top: 10px;
-  color: black;
-}
-
-.blog-area .single-post .post-content .content-title {
-  font-size: 18px;
-  font-weight: 600px;
-  letter-spacing: 0.1px;
-  margin: 0; 
-  padding: 0;
-  text-align: left;
-  position: relative;
-}
-.blog-area .single-post .post-content .content-title {
-  color: black; 
-}
-.blog-area .single-post .post-content .content-description {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 1.7;
-  margin: 0;
-}
-
-.blog-area .single-post .post-content .content-tags .tags-list {
-  display: inline-flex;
-  margin-left: -40px;
-}
-.blog-area .single-post .post-content .content-tags .tags-list li a{
-  list-style: none;
-  text-decoration: none;
-}
-.blog-area .single-post .post-content .content-tags .tags-list li:last-child{
-  padding-left: 7px;
 }
 
 /*----- Footer ----*/
@@ -984,6 +984,10 @@ sidebar-menu a.active {
     overflow-x: hidden;
     width: 100%;
   }
+  section {
+    width: 100%;
+    left:0;
+  }
   .home-area {
     height: 700px;
   }
@@ -1068,36 +1072,34 @@ sidebar-menu a.active {
     margin-left: -40px;
     margin-top: -10px;
   }
-  section {
-    width: 100%;
-    left:0;
-  }
+  
   .quotes-section  {
+    margin-top: 600px;
     height: 920px;
-    position:relative;
+    display:inline-block;
     background-color: rgba(218, 218, 219, 0.68);
-
   }
 
   .quote-wrap .single {   
     border: 1px solid rgba(214, 214, 214, 0.8); 
     background: #f7f7f7;
-    width: 150px; 
-    height: 160px; 
+    width: 1000px; 
+    height: 320px; 
     list-style-type: none;
     padding: 1em; 
     display: none;
     position: relative;
-    left: 90px; 
+    left: 40px; 
   }
   .quote-wrap .single p {    
     color: black;  
-    width: 80%; 
-    height: 35%;
+    width: 75%; 
+    height: 55%;
+    font-size: 18px;
     position: absolute;
     text-align: center;
-    top: 120px; 
-    left: 70px; 
+    top: 55px; 
+    left: 50px; 
     border-radius: 5px;
     background-color: rgb(227, 234, 237);
     opacity: .55;
@@ -1114,20 +1116,20 @@ sidebar-menu a.active {
     bottom: 0; 
     left: 40%; 
   }
+ 
   .carousel-button {
     width: 10px; 
     height: 10px; 
-    display: inline-flex;
+    /* display: inline-flex; */
     background: rgb(182, 180, 180);
     border-radius: 50%;
-    margin: 0 5px; 
+    margin:10px 5px; 
     cursor: pointer;
     position: relative;
-    right: -180px;
-    top: 500px; 
+    right: 200px;
+    top: 350px; 
+    display:flex;
   }
-
-}
 
 /* Tablet View */
 @media (max-width: 50em) {
