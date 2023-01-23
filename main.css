@@ -346,7 +346,6 @@ hr {
 .list-unstyled {
   list-style: none;
 }
-
 .sidebar .sidebar-menu .list-menu {
   margin-bottom: 0;
   text-align: center;
@@ -362,7 +361,6 @@ hr {
 .sidebar .sidebar-menu .list-menu li:not(:last-child) {
   margin-bottom: 28px;
 }
-
 .sidebar .sidebar-menu .list-menu .nav-link {
   color: rgba(232, 232, 232, 0.95);
   font-size: 16px;
@@ -370,7 +368,6 @@ hr {
   line-height: 100%;
   padding: 0;
 }
-
 .sidebar .simplebar-content-wrapper {
   -ms-flex-align: center;
   -ms-flex-pack: center;
@@ -393,78 +390,17 @@ hr {
 .sidebar .simplebar-track.simplebar-vertical {
   width: 10px;
 }
-
 .sidebar .simplebar-track.simplebar-vertical .simplebar-scrollbar {
   height: auto;
   width: 6px;
 }
-
 .sidebar .simplebar-track.simplebar-horizontal {
   height: 10px;
 }
-
 .sidebar .simplebar-track.simplebar-horizontal .simplebar-scrollbar {
   height: 6px;
   width: auto;
 }
-
-/* phone */
-
-.mobile-navbar {
-  padding: 12px 26px;
-  
-}
-
-.mobile-navbar:before {
-  background-color: #222;
-  content: '';
-  height: 58px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-}
-
-.mobile-navbar .navbar-toggler {
-  background-color: #333;
-  border-color: #222;
-  border-radius: 3px;
-  display: block;
-  font-size: 14px;
-  outline: none;
-  padding: 4px 10px;
-  position: relative;
-}
-
-.mobile-navbar .navbar-toggler .nav-btn {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  line-height: 20px;
-}
-
-.mobile-navbar .navbar-collapse .navbar-nav {
-  background-color: #222;
-  padding: 8px 20px;
-  position: relative;
-  top: 8px;
-  width: 200px;
-  z-index: 2;
-}
-
-.mobile-navbar .navbar-collapse .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  font-weight: 400;
-  padding: 7px 0;
-}
-
-.mobile-navbar .navbar-collapse .navbar-nav .nav-link:hover,
-.mobile-navbar .navbar-collapse .navbar-nav .nav-link:focus {
-  color: #fff;
-}
-
 
 /*--- Home ---*/
 .home-area1 {
@@ -988,8 +924,10 @@ sidebar-menu a.active {
     width: 100%;
     left:0;
   }
-  .home-area {
+  .home-area1 {
     height: 700px;
+    background-color:rgb(18, 18, 18);
+    background-image: url(img/blue-background.jpg);
   }
   .home-area1 .home-headline1 {
     text-align: center;
@@ -999,7 +937,16 @@ sidebar-menu a.active {
   }
   .home-area1 .home-headline1 .home-name {
     font-size: 20px; 
+    color: rgb(227, 227, 227); 
+    font-family: sans-serif;
   }
+
+  .home-area1 .home-headline1 .developer {
+    color: #3548aa;
+    box-shadow: 0 5px 20px 2px #031157;
+    background-color: rgb(0, 0, 56);
+  }
+  
   .content-subtitle {
     text-decoration: none;
 
