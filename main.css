@@ -1083,27 +1083,35 @@ sidebar-menu a.active {
   .quote-wrap .single {   
     border: 1px solid rgba(214, 214, 214, 0.8); 
     background: #f7f7f7;
-    width: 1000px; 
-    height: 320px; 
+    width: 400px; 
+    height: 280px; 
     list-style-type: none;
     padding: 1em; 
     display: none;
     position: relative;
-    left: 40px; 
+    left: 20px; 
   }
   .quote-wrap .single p {    
     color: black;  
     width: 75%; 
-    height: 55%;
-    font-size: 18px;
+    height: 60%;
+    font-size: 14px;
     position: absolute;
     text-align: center;
-    top: 55px; 
-    left: 50px; 
+    top: 40px; 
+    left: 38px; 
     border-radius: 5px;
     background-color: rgb(227, 234, 237);
     opacity: .55;
   }
+  .quote-wrap .single img {    
+    width: 100%; 
+    height: 100%;
+    filter: brightness(80%);
+    /* z-index: -1; */
+    opacity: 3;
+  }
+
   .quote-wrap .single--selected {
     display:block;
     text-align: center;
@@ -1126,10 +1134,11 @@ sidebar-menu a.active {
     margin:10px 5px; 
     cursor: pointer;
     position: relative;
-    right: 200px;
-    top: 350px; 
+    right: 150px;
+    top: 330px; 
     display:flex;
   }
+}
 
 /* Tablet View */
 @media (max-width: 50em) {
