@@ -57,8 +57,7 @@ document.querySelectorAll(".carousel").forEach(carousel => {
 const menuBtn = document.querySelector('.menu-btn');
 const phoneNavLinks = document.querySelector('.nav-links');
 
-// const phoneLinks = document.getElementById("nav-links")
 
 menuBtn.addEventListener('click', function() {
-  phoneNavLinks.classList.toggle("remove");
+  phoneNavLinks.classList.toggle("mobile-menu");
 } )
