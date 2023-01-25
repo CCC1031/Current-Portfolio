@@ -931,7 +931,9 @@ sidebar-menu a.active {
     text-align: center;
     position: relative;
     left: 0; 
-    bottom: 85px; 
+    /* bottom: 185px;  */
+    top: 335px; 
+
   }
   .home-area1 .home-headline1 .home-name {
     font-size: 20px; 
@@ -1120,7 +1122,7 @@ sidebar-menu a.active {
   position: relative;
   width: 300px;
   left: -20px; 
-  top: -25px; 
+  top: -5px; 
   justify-content: center;
   list-style: none;
   margin-bottom: 50px;
@@ -1129,6 +1131,8 @@ sidebar-menu a.active {
   border-bottom-right-radius: 50px;
   margin-left: 0px; 
   margin-left: -900px; 
+  position: fixed;
+
 }
 
 .nav-links li  {
@@ -1158,7 +1162,6 @@ sidebar-menu a.active {
   height: 80px; 
   background: rgb(87, 87, 137);
   position: fixed;
-
 }
 .mobile-menu {
   margin-left: 0px; 
