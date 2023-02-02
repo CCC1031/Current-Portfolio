@@ -594,24 +594,35 @@ hr {
 
 
 /*----- projects-----*/
-.portfolio-grid {
+/* .portfolio-grid {
   display: flex;
   overflow: hidden;
   position: relative;
   justify-content:start;
+} */
+
+
+.portfolio-grid {
+  display: grid;  
+  grid-gap: 15px; 
+  grid-template-columns: repeat(auto-fit, 30rem);  
+  /* grid-auto-rows: 150px; */
+  grid-template-rows: repeat(auto-fit, 4 , 200px); 
 }
+
 
 .portfolio-area .portfolio-grid .portfolio-wrapper {
   border: 3px solid pink;
-  width: 25rem; 
-  height: 15rem;
+  border-radius: 10px;
   margin-right: 20px;
+  height: 20vh; 
+  width: 32vh; 
 }
 
 .portfolio-area .portfolio-grid .portfolio-wrapper img {
   width: 100%;
-  object-fit: fill;
-  display: block;
+  height: 100%; 
+  border-radius: 8px;
 }
 
 #project1 {
@@ -624,7 +635,7 @@ hr {
 .portfolio-area .portfolio-grid .portfolio-wrapper {
   bottom: 0;
   /* height: 100%; */
-  width: 25rem; 
+  /* width: 25rem;  */
   cursor: pointer;
 }
 
@@ -678,9 +689,17 @@ hr {
 
 
 /*---- Blog ----*/
-.blog-wrap {
+/* .blog-wrap {
   display: flex; 
   margin-right: 20px;
+} */
+.blog-wrap {
+  display: grid; 
+  grid-gap: 5px; 
+  grid-template-columns: repeat(auto-fit, minmax(10px, 470px));  
+  /* grid-auto-rows: 350px; */
+  grid-template-rows: repeat(auto-fit, 5 , 700px); 
+  /* margin-right: 20px; */
 }
 .blog-area {
   height: 700px; 
@@ -689,26 +708,37 @@ hr {
 .blog-area .single-post {
   background-color: transparent;
   border: none;
-  border: 1px solid pink; 
+  /* border: 1px solid pink;  */
   border-radius: 5px;
-  height: 400px; 
-  width: 410px; 
-  margin-right: 20px;
+  /* height: 400px;  */
+  /* width: 410px;  */
+  height: 30vh; 
+  width: 32vh; 
+  position: relative;
+  /* margin-right: 20px; */
 }
 
 .blog-area .single-post .post-img {
   position: relative;
   width: 100%;
+  object-fit: cover; 
 }
 .card-img-top {
-  height: 230px; 
+  /* height: 230px;  */
+  /* height: 21vh;  */
+  height: 65%; 
   border-radius: 7px;
   width: 100%;
 }
+
 .blog-area .single-post .post-content {
   padding: 0;
-  margin-top: 10px;
+  margin-top: 20px;
   color: black;
+  /* border: 1px solid red;  */
+  position: absolute;
+  width: 85%; 
+  height: 10%; 
 }
 
 .blog-area .single-post .post-content .content-title {
@@ -728,6 +758,7 @@ hr {
   font-weight: 400;
   line-height: 1.7;
   margin: 0;
+  margin-top: -5px; 
 }
 
 .blog-area .single-post .post-content .content-tags .tags-list {
@@ -1207,6 +1238,9 @@ sidebar-menu a.active {
   .menu-btn {
     display: none;
   }
+  .blog-area {
+    height: 150vh; 
+  }
 }
 /* Desktop View */
 @media screen and (max-width: 100em) and (min-width: 50em)  {
@@ -1227,6 +1261,9 @@ sidebar-menu a.active {
   section {
     position: relative;
     width: 100%;
+  }
+  .blog-area {
+    height: 120vh; 
   }
 }
 @media screen and (max-width: 200em) and (min-width: 100em) {
@@ -1250,6 +1287,9 @@ sidebar-menu a.active {
   section {
     width: 100%;
     left:230;
+  }
+  .blog-area {
+    height: 60vh; 
   }
 }
 
