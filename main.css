@@ -566,15 +566,6 @@ hr {
   margin-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
 /* see work  */
 .see-my-work {
   background-attachment: fixed;
@@ -651,10 +642,10 @@ hr {
   transition: .5s ease;
   background-color: rgba(86, 6, 6, 0.9);
 }
+
 .portfolio-wrapper:hover .overlay {
   opacity: 1; 
 }
-
 .content-title {
   color: white;
   font-size: 20px;
@@ -693,13 +684,6 @@ hr {
   display: flex; 
   margin-right: 20px;
 }
-/* .blog-wrap {
-  display: grid; 
-  grid-gap: 5px; 
-  grid-template-columns: repeat(auto-fit, minmax(10px, 470px));  
-  grid-auto-rows: 350px;
-  grid-template-rows: repeat(auto-fit, 5 , 700px); 
-} */
 .blog-area {
   height: 700px; 
 }
@@ -707,15 +691,13 @@ hr {
 .blog-area .single-post {
   background-color: transparent;
   border: none;
-  /* border: 1px solid pink;  */
   border-radius: 5px;
-  /* height: 400px;  */
-  /* width: 410px;  */
   height: 30vh; 
   width: 32vh; 
   position: relative;
   margin-right: 30px;
 }
+
 
 .blog-area .single-post .post-img {
   position: relative;
@@ -734,7 +716,6 @@ hr {
   padding: 0;
   margin-top: 20px;
   color: black;
-  /* border: 1px solid red;  */
   position: absolute;
   width: 85%; 
   height: 10%; 
