@@ -828,6 +828,9 @@ sidebar-menu a.active {
     text-align: center;
     position: relative;
   }
+  .resume-phone {
+    visibility: hidden;
+  }
   .sidebar {
     display: none;
   }
@@ -845,12 +848,31 @@ sidebar-menu a.active {
     font-weight: 600;
     font-size: 12px;
   }
+  .portfolio-grid {
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .portfolio-area .portfolio-grid .portfolio-wrapper {
+    width: 25rem; 
+    height: 16.5rem;
+    margin: 5px 70px 20px 0;
+  }
   .blog-area {
-    height: 75vh; 
+    height: 125vh; 
   }
   .blog-area .blog-wrap {
     height: 50vh; 
     position: relative;
+  }
+  .blog-wrap {
+    display: flex; 
+    flex-direction: column;
+    margin: 15px 70px 20px 35px;
+  }
+  .blog-area .single-post .post-content {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 190px;
   }
   .blog-area .single-post {
     position: absolute;
@@ -861,6 +883,7 @@ sidebar-menu a.active {
     width: 32vh; 
     position: relative;
     margin-right: 30px;
+    margin-bottom: 20px;
     border: 2px solid rgb(199, 192, 255);
   }
   .card-img-top {
@@ -898,6 +921,9 @@ sidebar-menu a.active {
     margin-top: -15px;
   }
   .menu-btn {
+    visibility: hidden;
+  }
+  .resume-phone {
     visibility: hidden;
   }
   section {
@@ -946,6 +972,9 @@ sidebar-menu a.active {
     margin-top: -15px;
   }
   .menu-btn {
+    visibility: hidden;
+  }
+  .resume-phone {
     visibility: hidden;
   }
   .nav-links {
