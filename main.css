@@ -218,83 +218,6 @@ hr {
   position: relative;
 }
 
-
-/*-- Preloader ---*/
-.preloader {
-  background-color: #0e0e0e;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 99999;
-}
-
-.preloader .preloader-block {
-  -webkit-transform: translate(50%, 50%);
-  bottom: 50%;
-  position: fixed;
-  right: 50%;
-  transform: translate(50%, 50%);
-  z-index: 3000;
-}
-
-.preloader .preloader-block .preloader-icon .loading-dot {
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  height: 13px;
-  width: 13px;
-}
-
-.preloader .preloader-block .preloader-icon .loading-dot.loading-dot-1 {
-  -webkit-animation: 1.2s grow ease-in-out infinite;
-  animation: 1.2s grow ease-in-out infinite;
-}
-
-.preloader .preloader-block .preloader-icon .loading-dot.loading-dot-2 {
-  -webkit-animation: 1.2s grow ease-in-out infinite 0.15555s;
-  animation: 1.2s grow ease-in-out infinite 0.15555s;
-  margin: 0 14px;
-}
-
-.preloader .preloader-block .preloader-icon .loading-dot.loading-dot-3 {
-  -webkit-animation: 1.2s grow ease-in-out infinite 0.3s;
-  animation: 1.2s grow ease-in-out infinite 0.3s;
-}
-
-@-webkit-keyframes grow {
-
-  0%,
-  40%,
-  100% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-
-  40% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  
-}
-
-@keyframes grow {
-
-  0%,
-  40%,
-  100% {
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-
-  40% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-  
-
 /*--- Sidebar ----*/
 .sidebar {
   background-color: #111;
@@ -456,7 +379,6 @@ hr {
   position: absolute;
   width: 100%;
 }
-
 /*--- About ---*/
 
 .about-area .about-img img {
@@ -605,8 +527,6 @@ hr {
   margin-right: 30px;
   border: 2px solid rgb(199, 192, 255);
 }
-
-
 .blog-area .single-post .post-img {
   position: relative;
   width: 100%;
@@ -916,9 +836,6 @@ sidebar-menu a.active {
   .nav-links {
     margin-left: -900px; 
   }
-  .menu-btn {
-    display: none;
-  }
   .content-more {
     font-weight: 600;
     font-size: 12px;
@@ -971,12 +888,12 @@ sidebar-menu a.active {
   .nav-links {
     margin-left: -900px; 
   }
-  .menu-btn {
-    display: none;
-  }
   .home-area1 {
     height: 700px;
     margin-top: -15px;
+  }
+  .menu-btn {
+    display: none;
   }
   section {
     position: relative;
@@ -1013,9 +930,6 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     font-size: 16px;
   }
-  .fa-solid {
-    display: none;
-  }
 }
 @media screen and (max-width: 200em) and (min-width: 100em) {
   body, html {
@@ -1026,11 +940,11 @@ sidebar-menu a.active {
     height: 700px;
     margin-top: -15px;
   }
+  .menu-btn {
+    display: none;
+  }
   .nav-links {
     margin-left: -900px; 
-  }
-  .fa-solid {
-    display: none;
   }
   .home-area {
     height: 700px;
