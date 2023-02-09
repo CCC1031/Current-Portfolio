@@ -518,7 +518,7 @@ hr {
   justify-content:start;
 }
 .portfolio-area .portfolio-grid .portfolio-wrapper {
-  border: 3px solid pink;
+  border: 3px solid rgb(199, 192, 255);
   border-radius: 14px;
   margin-right: 30px;
   height: 20vh; 
@@ -767,7 +767,6 @@ sidebar-menu a.active {
     flex-direction: column;
   }
     .portfolio-area .portfolio-grid .portfolio-wrapper {
-    border: 3px solid pink;
     width: 19rem; 
     height: 11.5rem;
     margin: 5px 70px 20px 0;
@@ -775,15 +774,15 @@ sidebar-menu a.active {
   .portfolio-area .portfolio-grid .portfolio-wrapper img {
     width: 100%;
     object-fit:fill;
-    height: 11.68rem;
+    height: 11.1rem;
     display: block;
   }
   .blog-area .single-post {
     background-color: transparent;
     border: none;
     border-radius: 10px;
-    height: 38vh; 
-    width: 45vh; 
+    height: 30vh; 
+    width: 38vh; 
     margin: 5px 70px 20px -44px;
     border: 1px solid rgb(43, 43, 218); 
 
@@ -804,16 +803,13 @@ sidebar-menu a.active {
     margin-bottom: 190px;
   }
   .blog-area .single-post .post-content .content-title {
-    padding: 0;
+    padding: 10px;
     margin-top: 10px;
-  }
-  .blog-area .single-post .post-content .content-title {
-    font-size: 14px;
+    font-size: 12px;
   }
   .blog-area {
     height: 160vh; 
   }
-  
   .footer-area .mini-footer {
     -ms-flex-align: center;
     -ms-flex-pack: justify;
@@ -824,8 +820,6 @@ sidebar-menu a.active {
     justify-content: space-between;
     padding: 4px 0;
   }
-
-
   /* navbar */
 .navbar {
   padding: 0; 
@@ -968,6 +962,9 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     font-size: 14px;
   }
+  .menu-btn {
+    display: none;
+  }
 }
 /* Desktop View */
 @media screen and (max-width: 100em) and (min-width: 50em)  {
@@ -1019,6 +1016,9 @@ sidebar-menu a.active {
   }
   .blog-area .single-post .post-content .content-title {
     font-size: 16px;
+  }
+  .menu-btn {
+    display: none;
   }
 }
 @media screen and (max-width: 200em) and (min-width: 100em) {
