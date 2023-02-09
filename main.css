@@ -346,12 +346,10 @@ hr {
   left: 100px; 
   position: relative;
 }
-
 .home-area1 .home-name {
   font-size: 1.5rem;
   margin: 0; 
 }
-
 .home-area .home-headline::after {
   background-color: #b9b9b9;
   content: '';
@@ -361,8 +359,6 @@ hr {
   top: 0;
   width: 2px;
 }
-
-
 .home-area.video-variant #wrapper_homeVideo:before {
   background-color: rgba(0, 0, 0, 0.6);
   content: '';
@@ -823,6 +819,15 @@ sidebar-menu a.active {
     height: 700px;
     margin-top: -20px;
   }
+  .home-area1 .home-headline1 {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    top: 100px;
+    left: 0%;  
+    text-align: center;
+    position: relative;
+  }
   .sidebar {
     display: none;
   }
@@ -876,7 +881,7 @@ sidebar-menu a.active {
     font-size: 14px;
   }
   .menu-btn {
-    display: none;
+    visibility: hidden;
   }
 }
 /* Desktop View */
@@ -893,7 +898,7 @@ sidebar-menu a.active {
     margin-top: -15px;
   }
   .menu-btn {
-    display: none;
+    visibility: hidden;
   }
   section {
     position: relative;
@@ -941,7 +946,7 @@ sidebar-menu a.active {
     margin-top: -15px;
   }
   .menu-btn {
-    display: none;
+    visibility: hidden;
   }
   .nav-links {
     margin-left: -900px; 
