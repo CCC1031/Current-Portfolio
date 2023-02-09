@@ -167,7 +167,6 @@ hr {
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -177,12 +176,10 @@ hr {
     opacity: 1;
   }
 }
-
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
-
 @-webkit-keyframes fadeOut {
   from {
     opacity: 1;
@@ -192,7 +189,6 @@ hr {
     opacity: 0;
   }
 }
-
 @keyframes fadeOut {
   from {
     opacity: 1;
@@ -202,7 +198,6 @@ hr {
     opacity: 0;
   }
 }
-
 .fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
@@ -406,7 +401,7 @@ hr {
 .home-area1 {
   height: 100vh;
   /* background-color: rgba(245, 240, 240, 0.68); */
-  background-color: #484848;
+  background-color: #c2c2c2;
   padding: 0; 
 }
 
@@ -444,68 +439,7 @@ hr {
   top: 0;
   width: 2px;
 }
-.home-area .home-mouse .mouse-shape {
-  background-color: rgba(0, 0, 0, 0.45);
-  border: 2px solid transparent;
-  border-color: red; 
-  border-radius: 25px;
-  box-sizing: content-box;
-  height: 28px;
-  opacity: .8;
-  padding: 5px 11px;
-  width: 3px;
-}
 
-.home-area .home-mouse .mouse-shape .mouse-wheel {
-  -webkit-animation-duration: 1.3s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-name: scrollDown;
-  -webkit-animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
-  animation-duration: 1.3s;
-  animation-iteration-count: infinite;
-  animation-name: scrollDown;
-  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
-  background-color: #fff;
-  border-radius: 25%;
-  height: 9px;
-  width: 3px;
-}
-
-@-webkit-keyframes scrollDown {
-  0% {
-    opacity: 0;
-  }
-
-  10% {
-    -webkit-transform: translateY(0);
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  100% {
-    -webkit-transform: translateY(15px);
-    opacity: 0;
-    transform: translateY(15px);
-  }
-}
-
-@keyframes scrollDown {
-  0% {
-    opacity: 0;
-  }
-
-  10% {
-    -webkit-transform: translateY(0);
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  100% {
-    -webkit-transform: translateY(15px);
-    opacity: 0;
-    transform: translateY(15px);
-  }
-}
 
 .home-area.video-variant #wrapper_homeVideo:before {
   background-color: rgba(0, 0, 0, 0.6);
@@ -767,12 +701,10 @@ hr {
 .footer-area .mini-footer .social-medias a.github:hover {
   background-color: #5b457a;
 }
-
 sidebar-menu a.active {
   color: blue;
   transition: 0.8 ease color;
 }
-
 
 /* PhoneView */
 @media (max-width: 38em) {
