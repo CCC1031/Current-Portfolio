@@ -519,7 +519,7 @@ hr {
 }
 .portfolio-area .portfolio-grid .portfolio-wrapper {
   border: 3px solid pink;
-  border-radius: 10px;
+  border-radius: 14px;
   margin-right: 30px;
   height: 20vh; 
   width: 32vh; 
@@ -559,7 +559,7 @@ hr {
 }
 .content-title {
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -617,6 +617,7 @@ hr {
   height: 65%; 
   border-radius: 7px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .blog-area .single-post .post-content {
@@ -628,7 +629,7 @@ hr {
   height: 10%; 
 }
 .blog-area .single-post .post-content .content-title {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600px;
   letter-spacing: 0.1px;
   margin: 0; 
@@ -767,8 +768,8 @@ sidebar-menu a.active {
   }
     .portfolio-area .portfolio-grid .portfolio-wrapper {
     border: 3px solid pink;
-    width: 20rem; 
-    height: 12rem;
+    width: 19rem; 
+    height: 11.5rem;
     margin: 5px 70px 20px 0;
   }
   .portfolio-area .portfolio-grid .portfolio-wrapper img {
@@ -926,12 +927,13 @@ sidebar-menu a.active {
   .menu-btn {
     display: none;
   }
-
-
+  .content-more {
+    font-weight: 600;
+    font-size: 12px;
+  }
   .blog-area {
     height: 75vh; 
   }
-
   .blog-area .blog-wrap {
     height: 50vh; 
     position: relative;
