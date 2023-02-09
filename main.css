@@ -101,7 +101,6 @@ hr {
 }
 
 /* Sections */
-
 .single-section {
   background-color: #fff;
   padding: 35px 40px;
@@ -1014,7 +1013,7 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     font-size: 16px;
   }
-  .menu-btn {
+  .fa-solid {
     display: none;
   }
 }
@@ -1030,7 +1029,7 @@ sidebar-menu a.active {
   .nav-links {
     margin-left: -900px; 
   }
-  .menu-btn {
+  .fa-solid {
     display: none;
   }
   .home-area {
