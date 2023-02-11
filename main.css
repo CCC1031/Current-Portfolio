@@ -89,6 +89,9 @@ hr {
   padding: 10px 38px;
   margin-top: -40px;
 }
+.my-work-btn {
+  box-shadow: 2px 2px 2px rgb(171, 171, 171); 
+}
 
 .button-main:focus {
   background-color: #bfbfbf;
@@ -154,52 +157,6 @@ hr {
   position: absolute;
   top: 0;
   width: 100%;
-}
-
-/* Anima */
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-  }
-}
-.fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut;
 }
 
 /*  styles */
@@ -507,15 +464,17 @@ hr {
 }
 .project-btn {
   margin-left: 5px;
-  padding: 2px 25px 2px 25px;
+  padding: 2px 20px 2px 20px;
   text-decoration: none;
   top: 10px; 
   border: 1px solid rgb(180, 180, 180);
-  transition: background-color 1s;
-  
+  transition: background-color ease-in  .5s;
+  box-shadow: 2px 2px 2px rgb(171, 171, 171); 
 }
 .project-btn:hover {
-  background-color:#007bff;
+  background-color:#318beb;
+  /* border: 2px solid rgb(168, 182, 196);  */
+  color: white; 
 }
 /*---- Blog ----*/
 .blog-wrap {
