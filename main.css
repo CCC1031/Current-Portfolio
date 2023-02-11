@@ -440,6 +440,7 @@ hr {
   margin-right: 30px;
   height: 20vh; 
   width: 32vh; 
+  margin-bottom: 15px;
 }
 .portfolio-area .portfolio-grid .portfolio-wrapper img {
   width: 100%;
@@ -503,6 +504,18 @@ hr {
 
 .portfolio-area .portfolio-grid .portfolio-wrapper>.img-fluid {
   width: 100%;
+}
+.project-btn {
+  margin-left: 5px;
+  padding: 2px 25px 2px 25px;
+  text-decoration: none;
+  top: 10px; 
+  border: 1px solid rgb(180, 180, 180);
+  transition: background-color 1s;
+  
+}
+.project-btn:hover {
+  background-color:#007bff;
 }
 /*---- Blog ----*/
 .blog-wrap {
