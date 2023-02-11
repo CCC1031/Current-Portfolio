@@ -697,13 +697,16 @@ sidebar-menu a.active {
     .portfolio-area .portfolio-grid .portfolio-wrapper {
     width: 19rem; 
     height: 11.5rem;
-    margin: 5px 70px 20px 0;
+    margin: 5px 70px 10px 0;
   }
   .portfolio-area .portfolio-grid .portfolio-wrapper img {
     width: 100%;
     object-fit:fill;
     height: 11.1rem;
     display: block;
+  }
+  .portfolio-area .portfolio-grid .phone-margin{
+    margin-top: 45px ;
   }
   .blog-area .single-post {
     background-color: transparent;

@@ -144,12 +144,10 @@ a:not(.btn):focus {
   color: #007bff;
 }
 
-
 /*---- Project ----*/
 .portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more:focus, .portfolio-area .portfolio-grid .portfolio-wrapper .item-content .content-more:hover  {
   color: white;
 }
-
 
 /*--- Blog ----*/
 .blog-area .single-post .post-img .content-date {
