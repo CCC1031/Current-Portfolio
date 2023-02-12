@@ -53,13 +53,13 @@ b {
   font-weight: bold;
 }
 .developer { 
-  color: rgb(56, 43, 237); 
+  color: #007bff;;
+
 }
 /* Ot */
 a {
   transition: all 0.15s ease-in-out;
 }
-
 a:hover,
 a:focus {
   text-decoration: none;
@@ -623,7 +623,6 @@ sidebar-menu a.active {
     z-index: -1;
     /* bottom: 185px;  */
     top: 335px; 
-
   }
   .home-area1 .home-headline1 .home-name {
     font-size: 20px; 
@@ -632,8 +631,6 @@ sidebar-menu a.active {
   }
   .home-area1 .home-headline1 .developer {
     color: #3548aa;
-    box-shadow: 0 5px 20px 2px #031157;
-    background-color: rgb(0, 0, 56);
   }
   .resume-phone {
     box-shadow: 2px 2px 2px rgb(171, 171, 171); 
@@ -677,7 +674,7 @@ sidebar-menu a.active {
   .portfolio-area .portfolio-grid .portfolio-wrapper img {
     width: 100%;
     object-fit:fill;
-    height: 11.1rem;
+    height: 11.1991rem;
     display: block;
   }
   .portfolio-area .portfolio-grid .phone-margin{
@@ -710,7 +707,8 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     padding: 10px;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: 500;
   }
   .blog-area {
     height: 125vh; 
@@ -745,6 +743,7 @@ sidebar-menu a.active {
   align-items: center;
   position: relative;
   width: 300px;
+  /* height: 670px; */
   left: -20px; 
   top: -5px; 
   justify-content: center;
@@ -756,7 +755,7 @@ sidebar-menu a.active {
   margin-left: 0px; 
   margin-left: -900px; 
   position: fixed;
-
+  transition: all .5s ease;
 }
 .single-section .section-heading .section-title {
   z-index: 0;
@@ -922,7 +921,7 @@ sidebar-menu a.active {
     width: 100%;
   }
   .blog-area {
-    height: 90vh; 
+    height: 60vh; 
   }
   .blog-area .single-post {
     position: absolute;
