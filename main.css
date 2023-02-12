@@ -91,6 +91,12 @@ hr {
 }
 .my-work-btn {
   box-shadow: 2px 2px 2px rgb(171, 171, 171); 
+  text-decoration: none;
+  transition: background-color ease-in  .5s;
+}
+.my-work-btn:hover {
+  background-color:#318beb;
+  color: white; 
 }
 
 .button-main:focus {
@@ -473,7 +479,6 @@ hr {
 }
 .project-btn:hover {
   background-color:#318beb;
-  /* border: 2px solid rgb(168, 182, 196);  */
   color: white; 
 }
 /*---- Blog ----*/
@@ -630,6 +635,17 @@ sidebar-menu a.active {
     box-shadow: 0 5px 20px 2px #031157;
     background-color: rgb(0, 0, 56);
   }
+  .resume-phone {
+    box-shadow: 2px 2px 2px rgb(171, 171, 171); 
+    margin-left: 10px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    transition: background-color ease-in  .5s;
+  }
+  .resume-phone:hover {
+    background-color:#318beb;
+    color: white; 
+  }
   .content-subtitle {
     text-decoration: none;
   }
@@ -697,7 +713,7 @@ sidebar-menu a.active {
     font-size: 12px;
   }
   .blog-area {
-    height: 160vh; 
+    height: 125vh; 
   }
   .footer-area .mini-footer {
     -ms-flex-align: center;
@@ -833,7 +849,7 @@ sidebar-menu a.active {
     margin: 5px 70px 20px 0;
   }
   .blog-area {
-    height: 125vh; 
+    height: 140vh; 
   }
   .blog-area .blog-wrap {
     height: 50vh; 
