@@ -226,6 +226,32 @@ hr {
 .list-unstyled {
   list-style: none;
 }
+
+.sidebar .social-media-side a {
+  background-color: #222;
+  border-radius: 20%;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  margin: 35px 3px;
+  text-align: center;
+  transition: all 0.1s ease-in-out;
+  width: 26px;
+  padding: 5.5px 0;
+
+}
+.sidebar .social-media-side a.linkedin-side {
+  background-color: #0077B5;
+}
+.sidebar .social-media-side a.github-side {
+  background-color: #6e5494;
+
+}
+
+
+
 .sidebar .sidebar-menu .list-menu {
   margin-bottom: 0;
   text-align: center;
@@ -951,6 +977,10 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     font-size: 16px;
   }
+  .footer-area {
+    display: none;
+  }
+  
 }
 @media screen and (max-width: 200em) and (min-width: 100em) {
   body, html {
