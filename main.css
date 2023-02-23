@@ -745,11 +745,11 @@ sidebar-menu a.active {
   width: 300px;
   /* height: 670px; */
   left: -20px; 
-  top: -5px; 
+  top: -15px; 
   justify-content: center;
   list-style: none;
   margin-bottom: 50px;
-  background: rgb(87, 87, 137);
+  background: rgb(87, 87, 137); 
   padding: 50px 10px 10px 10px; 
   border-bottom-right-radius: 50px;
   margin-left: 0px; 
@@ -786,7 +786,7 @@ sidebar-menu a.active {
   left: 0; 
   width: 100%; 
   height: 80px; 
-  background: rgb(87, 87, 137);
+  /* background: rgb(87, 87, 137); */
   position: fixed;
 }
 .mobile-menu {
