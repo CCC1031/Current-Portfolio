@@ -16,7 +16,6 @@ body {
   color: #333;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  font-weight: 400;
   line-height: 1.95;
   position: absolute;
   width: 100%;
@@ -48,9 +47,7 @@ h6 {
 .h6 {
   color: #222;
 }
-b {
-  font-weight: bold;
-}
+
 .developer { 
   color: #007bff;;
 
@@ -322,7 +319,6 @@ hr {
 }
 .home-area1 .home-headline1 {
   color: #fff;
-  font-weight: 400;
   letter-spacing: 0.3px;
   top: 50%;
   left: 100px; 
@@ -372,7 +368,6 @@ hr {
 
 .about-area .about-content .content-title {
   font-size: 28px;
-  font-weight: 700;
   line-height: 1.5;
   margin-bottom: 15px;
 }
@@ -405,7 +400,6 @@ hr {
 }
 .see-my-work .work-title {
   color: #f0f0f0;
-  font-weight: 700;
   margin-bottom: 14px;
 }
 
@@ -482,7 +476,6 @@ hr {
 }
  .content-more {
   position: absolute;
-  font-weight: 600;
   top: 65%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -553,7 +546,6 @@ hr {
 }
 .blog-area .single-post .post-content .content-title {
   font-size: 14px;
-  font-weight: 600px;
   letter-spacing: 0.1px;
   margin: 0; 
   padding: 0;
@@ -565,7 +557,6 @@ hr {
 }
 .blog-area .single-post .post-content .content-description {
   font-size: 13px;
-  font-weight: 400;
   line-height: 1.7;
   margin: 0;
   margin-top: -5px; 
@@ -711,6 +702,9 @@ sidebar-menu a.active {
   .portfolio-area .portfolio-grid .phone-margin{
     margin-top: 45px ;
   } */
+  .blog-area { 
+    margin-bottom: 100px; 
+  }
   .blog-area .single-post {
     background-color: transparent;
     border: none;
@@ -738,8 +732,7 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     padding: 10px;
     margin-top: 10px;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 11px;
   }
   .blog-area {
     height: 130vh; 
@@ -912,6 +905,7 @@ sidebar-menu a.active {
     margin-bottom: 20px;
     border: 2px solid rgb(199, 192, 255);
   }
+  
   .card-img-top {
     height: 60%; 
     border-radius: 7px;
@@ -925,9 +919,7 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     padding: 5px;
     margin-top: 20px;
-  }
-  .blog-area .single-post .post-content .content-title {
-    font-size: 14px;
+    font-size: 12px;
   }
   .menu-btn {
     visibility: hidden;
@@ -983,14 +975,13 @@ sidebar-menu a.active {
   .blog-area .single-post .post-content .content-title {
     padding: 5px;
     margin-top: 20px;
-  }
-  .blog-area .single-post .post-content .content-title {
-    font-size: 16px;
+    font-size: 13px;
+    font-weight:100; 
   }
   .footer-area {
     display: none;
   }
- 
+
 }
 @media screen and (max-width: 200em) and (min-width: 100em) {
   body, html {
