@@ -693,7 +693,7 @@ sidebar-menu a.active {
     margin-bottom: 100px; 
     overflow-y: hidden;
     margin-bottom: 50px;
-    height: 50rem; 
+    height: 65rem; 
   }
   .blog-area .single-post {
     background-color: transparent;
@@ -713,8 +713,7 @@ sidebar-menu a.active {
   .blog-wrap {
     display: flex; 
     flex-direction: column;
-    margin: auto 35%; 
-    height: 100px; 
+    margin: auto 12%; 
   }
   .blog-area .single-post .post-content {
     padding: 0;
