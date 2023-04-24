@@ -624,15 +624,19 @@ sidebar-menu a.active {
 
 /* PhoneView */
 @media (max-width: 38em) {
- body, html {
-    overflow-x: hidden;
+ html, body {
     width: 100%;
+    height: 100%; 
+    margin: 0;
+    padding: 0; 
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
     scroll-padding: 3em;
   }
   section {
     width: 100%;
     left:0;
+    overflow-x: hidden;
   }
   .home-area1 {
     height: 700px;
@@ -685,26 +689,11 @@ sidebar-menu a.active {
   .second-avatar {
     display: none; 
   }
-  /* .portfolio-grid {
-    padding-top: 0;
-    flex-direction: column;
-  }
-    .portfolio-area .portfolio-grid .portfolio-wrapper {
-    width: 19rem; 
-    height: 11.5rem;
-    margin: 5px 70px 10px 0;
-  }
-  .portfolio-area .portfolio-grid .portfolio-wrapper img {
-    width: 100%;
-    object-fit:fill;
-    height: 11.1991rem;
-    display: block;
-  }
-  .portfolio-area .portfolio-grid .phone-margin{
-    margin-top: 45px ;
-  } */
   .blog-area { 
     margin-bottom: 100px; 
+    overflow-y: hidden;
+    margin-bottom: 50px;
+    height: 50rem; 
   }
   .blog-area .single-post {
     background-color: transparent;
@@ -714,6 +703,7 @@ sidebar-menu a.active {
     width: 38vh; 
     margin: 5px 70px 20px -44px;
     border: 1px solid #318beb;
+    padding-bottom: 15px;
   }
   .card-img-top {
     height: 70%; 
@@ -723,21 +713,19 @@ sidebar-menu a.active {
   .blog-wrap {
     display: flex; 
     flex-direction: column;
-    margin: 15px 70px 20px 35px;
+    margin: auto 35%; 
+    height: 100px; 
   }
   .blog-area .single-post .post-content {
     padding: 0;
     margin: 0;
-    margin-bottom: 190px;
   }
   .blog-area .single-post .post-content .content-title {
     padding: 10px;
     margin-top: 10px;
     font-size: 11px;
   }
-  .blog-area {
-    height: 130vh; 
-  }
+  
   .footer-area .mini-footer {
     -ms-flex-align: center;
     -ms-flex-pack: justify;
@@ -822,7 +810,7 @@ sidebar-menu a.active {
 }
 /* Tablet View */
 @media screen and (max-width: 50em) and (min-width: 38em) {
-  body, html {
+  html, body {
     overflow-x: hidden;
     width: 100%;
   }
