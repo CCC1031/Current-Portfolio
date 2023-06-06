@@ -28,6 +28,10 @@ section {
   scroll-margin-left: 230px;
 }
 /* text */
+.first-para { 
+  color: black; 
+  width: 50%;
+}
 i.icon {
   line-height: 100%;
 }
